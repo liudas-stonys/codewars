@@ -11,4 +11,4 @@ def validate_parentheses(string):
     return not stack
 
 
-assert validate_parentheses('hi(hi)()') is True
+assert validate_parentheses('hi(hi)()') == True
