@@ -1,0 +1,15 @@
+opposite = {'NORTH': 'SOUTH', 'SOUTH': 'NORTH', 'WEST': 'EAST', 'EAST': 'WEST'}
+
+
+def reduce_direction(arr):
+    new_arr = []
+    for move in arr:
+        if new_arr and new_arr[-1] == opposite[move]:
+            new_arr.pop()
+        else:
+            new_arr.append(move)
+    return new_arr
+
+
+test_arr = ['NORTH', 'SOUTH', 'SOUTH', 'EAST', 'WEST', 'NORTH', 'WEST']
+assert reduce_direction(test_arr) == ['WEST']
