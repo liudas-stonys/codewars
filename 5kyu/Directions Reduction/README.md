@@ -2,6 +2,7 @@ Once upon a time, on a way through the old wild west, a man was given directions
 
 Examples:
 ['NORTH', 'SOUTH', 'SOUTH', 'EAST', 'WEST', 'NORTH', 'WEST'] => ['WEST']
+
 ['NORTH', 'WEST', 'SOUTH', 'EAST']                           => ['NORTH', 'WEST', 'SOUTH', 'EAST']
 
 Link to kata:
