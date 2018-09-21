@@ -1,0 +1,14 @@
+def validate_parentheses(string):
+    stack = list()
+    for ch in string:
+        if ch is '(':
+            stack.append(ch)
+        elif ch is ')':
+            if not stack:
+                return False
+            else:
+                stack.pop()
+    return not stack
+
+
+assert validate_parentheses('hi(hi)()') is True
