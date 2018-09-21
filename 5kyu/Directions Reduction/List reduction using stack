@@ -12,4 +12,4 @@ def reduce_direction(arr):
 
 
 test_arr = ['NORTH', 'SOUTH', 'SOUTH', 'EAST', 'WEST', 'NORTH', 'WEST']
-assert reduce_direction(test_arr) is ['WEST']
+assert reduce_direction(test_arr) == ['WEST']
