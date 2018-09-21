@@ -2,9 +2,9 @@ opposite = {'NORTH': 'SOUTH', 'SOUTH': 'NORTH', 'WEST': 'EAST', 'EAST': 'WEST'}
 
 
 def reduce_direction(arr):
-    new_arr = []
+    new_arr = list()
     for move in arr:
-        if new_arr and new_arr[-1] == opposite[move]:
+        if new_arr and new_arr[-1] is opposite[move]:
             new_arr.pop()
         else:
             new_arr.append(move)
