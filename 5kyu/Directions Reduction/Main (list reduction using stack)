@@ -1,14 +1,14 @@
 opposite = {'NORTH': 'SOUTH', 'SOUTH': 'NORTH', 'WEST': 'EAST', 'EAST': 'WEST'}
 
 
-def reduce_direction(arr):
-    new_arr = list()
-    for move in arr:
-        if new_arr and new_arr[-1] is opposite[move]:
-            new_arr.pop()
+def reduce_direction(directions):
+    stack = list()
+    for move in directions:
+        if stack and stack[-1] is opposite[move]:
+            stack.pop()
         else:
-            new_arr.append(move)
-    return new_arr
+            stack.append(move)
+    return stack
 
 
 test_arr = ['NORTH', 'SOUTH', 'SOUTH', 'EAST', 'WEST', 'NORTH', 'WEST']
