@@ -13,7 +13,7 @@ Write calculations using functions and get the results.
 seven(times(five())) => 35
 four(plus(nine())) => 13
 eight(minus(three())) => 5
-six(dividedBy(two())) => 3
+six(divided_by(two())) => 3
 ```
 
 ### Link to kata:
