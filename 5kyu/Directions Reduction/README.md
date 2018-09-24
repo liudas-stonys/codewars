@@ -8,4 +8,4 @@ Once upon a time, on a way through the old wild west, a man was given directions
 ```
 
 ### Link to kata:
-https://www.codewars.com/kata/550f22f4d758534c1100025a
+https://www.codewars.com/kata/directions-reduction
