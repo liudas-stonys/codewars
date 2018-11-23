@@ -1,2 +1,2 @@
 # Codewars
-My solved katas. More: https://www.codewars.com/users/aeOm
+Few of my solved katas. More katas: https://www.codewars.com/users/aeOm
